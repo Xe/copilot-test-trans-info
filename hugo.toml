@@ -1,0 +1,32 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Transgender HRT Information'
+
+[params]
+  description = 'Basic information about male to female hormone replacement therapy'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Overview'
+    url = '/overview/'
+    weight = 2
+  [[menu.main]]
+    name = 'Hormones'
+    url = '/hormones/'
+    weight = 3
+  [[menu.main]]
+    name = 'Effects'
+    url = '/effects/'
+    weight = 4
+  [[menu.main]]
+    name = 'Safety'
+    url = '/safety/'
+    weight = 5
+  [[menu.main]]
+    name = 'Resources'
+    url = '/resources/'
+    weight = 6
